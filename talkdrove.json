@@ -1,0 +1,91 @@
+{
+    "bot-name": "WHATSAPP-BOT",
+    "description": "WHATSAPP-BOT made for people on Earth",
+    "logo": "https://avatars.githubusercontent.com/u/149932919?v=4",
+    "keywords": ["bot"],
+    "documentation-link": "https://prabath--md-official.vercel.app/",
+    "owner-verification": "luciferkiller315@gmail.com",
+  
+    "env": {
+      "SESSION_ID": {
+        "description": "Put your SESSION_ID here. Make sure it starts with Byte;;;, or get session id from here, https://session.talkdrove.com",
+        "value": "",
+        "required": true
+      },
+      "PREFIX": {
+        "description": "Bot command prefix, (e.g, . , ! @ etc",
+        "value": ".",
+        "required": true
+      },
+      "GITHUB_AUTH_TOKEN": {
+        "description": "Your GitHub authentication token",
+        "value": "",
+        "required": true
+      },
+      "AUTO_VOICE": {
+        "description": "Enable/disable auto voice (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "BUTTONS": {
+        "description": "Enable/disable buttons (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "AUTO_STICKER": {
+        "description": "Enable/disable auto sticker (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "AUTO_RESTART": {
+        "description": "Enable/disable auto restart (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "AUTO_READ_STATUS": {
+        "description": "Enable/disable auto read status (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "ALWAYS_ONLINE": {
+        "description": "Keep your WhatsApp always online (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "READ_MESSAGE": {
+        "description": "Define read message commands",
+        "value": "commands",
+        "required": false
+      },
+      "WORK_TYPE": {
+        "description": "Define bot work type (public/private)",
+        "value": "public",
+        "required": false
+      },
+      "ANTI_BAD": {
+        "description": "Enable/disable anti-bad words filter (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "MAX_SIZE": {
+        "description": "Define max size limit",
+        "value": "150",
+        "required": false
+      },
+      "ONLY_GROUP": {
+        "description": "Restrict bot to groups only (true/false)",
+        "value": "false",
+        "required": false
+      },
+      "SUDO": {
+        "description": "Add your sudo number",
+        "value": "",
+        "required": true
+      },
+      "ANTI_DELETE": {
+        "description": "Enable/disable anti-delete (true/false)",
+        "value": "false",
+        "required": false
+      }
+    }
+}
